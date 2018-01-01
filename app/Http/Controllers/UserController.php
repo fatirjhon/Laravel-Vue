@@ -9,7 +9,7 @@ class UserController extends Controller
 {
     public function paginate()
     {
-        $users = User::orderBy('username', 'ASC')
+        $users = User::orderBy('fullname', 'ASC')
             ->paginate(request('limit', 5));
 
         if (request()->all()) {
@@ -44,8 +44,11 @@ class UserController extends Controller
         return response()->json($user);
     }
 
-    public function getData(){
-        
+    public function search()
+    {
+        $users = User::where('fullname', $request->keywords)->get();
+
+        return response()->json($users);
     }
     
 }

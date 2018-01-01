@@ -1,0 +1,190 @@
+.jumbotron {
+	background: url("/img/bg.jpg") center;
+	background-size: cover;
+	min-height: 670px;
+	overflow: hidden;
+}
+
+#sun {
+	width: 350px;
+	margin-top: 110px;
+	z-index: 1;
+	left: 230px;
+	position: relative;
+}
+
+#a {
+	width: 150px;
+	margin-top: 170px;
+	z-index: 2;
+	left: -300px;
+	position: relative;
+	transition: 1s;
+}
+
+#a.scroll1 {
+	width: 150px;
+	margin-top: 210px;
+	z-index: 2;
+	left: -250px;
+	position: relative;
+}
+
+#a.scroll2 {
+	width: 150px;
+	margin-top: 250px;
+	z-index: 2;
+	left: -200px;
+	position: relative;
+}
+
+#a.scroll3 {
+	width: 150px;
+	margin-top: 270px;
+	z-index: 2;
+	left: -150px;
+	position: relative;
+}
+
+#a.scroll4 {
+	width: 150px;
+	margin-top: 290px;
+	z-index: 2;
+	left: -90px;
+	position: relative;
+}
+
+#a.scroll5 {
+	width: 150px;
+	margin-top: 280px;
+	z-index: 2;
+	left: -50px;
+	position: relative;
+}
+
+
+#b {
+	width: 150px;
+	margin-top: 270px;
+	z-index: 2;
+	left: -100px;
+	position: relative;
+	transition: 1s;
+}
+
+#b.scroll1 {
+	width: 150px;
+	margin-top: 250px;
+	z-index: 2;
+	left: -70px;
+	position: relative;
+}
+
+#b.scroll2 {
+	width: 150px;
+	margin-top: 230px;
+	z-index: 2;
+	left: -40px;
+	position: relative;
+}
+
+#b.scroll3 {
+	width: 150px;
+	margin-top: 210px;
+	z-index: 2;
+	left: -10px;
+	position: relative;
+}
+
+#b.scroll4 {
+	width: 150px;
+	margin-top: 190px;
+	z-index: 2;
+	left: 10px;
+	position: relative;
+}
+
+#b.scroll5 {
+	width: 150px;
+	margin-top: 170px;
+	z-index: 2;
+	left: 30px;
+	position: relative;
+}
+
+#c {
+	width: 120px;
+	margin-top: -20px;
+	z-index: 0;
+	left: -100px;
+	position: relative;
+	transition: 1s;
+}
+
+#c.scroll1 {
+	width: 120px;
+	margin-top: -50px;
+	z-index: 0;
+	left: -150px;
+	position: relative;
+}
+
+#c.scroll2 {
+	width: 120px;
+	margin-top: -80px;
+	z-index: 0;
+	left: -200px;
+	position: relative;
+}
+
+#c.scroll3 {
+	width: 120px;
+	margin-top: -100px;
+	z-index: 0;
+	left: -250px;
+	position: relative;
+}
+
+#c.scroll4 {
+	width: 120px;
+	margin-top: -100px;
+	z-index: 0;
+	left: -290px;
+	position: relative;
+}
+
+#c.scroll5 {
+	width: 120px;
+	margin-top: -90px;
+	z-index: 0;
+	left: -330px;
+	position: relative;
+}
+
+.tentang {
+	min-height: 650px;
+}
+
+.judul {
+	transform: translate(-30px, 0px);
+	opacity: 0;
+	transition: .7s;
+}
+
+.judul.tampil {
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+
+.konten {
+	opacity: 0;
+	transform: translate(30px, 0px) rotate(10deg);
+	text-align: justify;
+	transition: 1.3s;
+}
+
+.konten.tampil {
+	opacity: 1;
+	transform: translate(0px, 0px);
+	transition: 1.3s;
+}

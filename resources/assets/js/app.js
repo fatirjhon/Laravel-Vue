@@ -11,6 +11,9 @@ window.Vue = require('vue');
 var Vue = require('vue');
 Vue.use(require('vue-resource'));
 
+// import InstantSearch from 'vue-instantsearch';
+// Vue.use(InstantSearch);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -38,7 +41,7 @@ const routes = [
     path: '/create',
     name: 'usercreate',
     component: require('./components/user/create.vue') 
-  }
+  },
 ]
 
 const router = new VueRouter({ routes });

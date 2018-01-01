@@ -11,7 +11,9 @@
     <title>Vue CRUD</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{{ asset('img/c.png') }}}">
+    <link href="{{{ asset('css/bootstrap.min.css')}}}" rel="stylesheet">
+    <link href="{{{ asset('css/style.css')}}}" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
@@ -27,5 +29,8 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{{ asset('js/jquery-3.2.1.min.js')}}}"></script>
+    <script src="{{{ asset('js/bootstrap.min.js')}}}"></script>
+    <script src="{{{ asset('js/script.js')}}}"></script>
 </body>
 </html>
